@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer components {
+
+    body{
+     @apply  dark:bg-[linear-gradient(180deg,#040918,#091540)] h-[1000px] bg-[linear-gradient(180deg,#EBF2FC,#EEF8F9)]
+    }
+
+
+
+}
+
+@theme {
+
+    --color-primary : hsl(227, 75%, 14%);
+    --color-elementDark : hsl(226, 25%, 17%);
+    --color-elementLight : #FBFDFE;
+    --color-iconBgDark : hsl(225, 23%, 24%);
+    --color-iconBgLight : hsl(0, 0%, 93%);
+    --color-neutral600 : hsl(226, 11%, 37%);
+    --color-textPrimary : hsl(200, 60%, 99%);
+    --color-neutral300 : hsl(0, 0%, 78%);
+    --color-buttonRed : hsl(3, 77%, 44%);
+    --color-buttonRedDark : hsl(3, 86%, 64%);
+}
