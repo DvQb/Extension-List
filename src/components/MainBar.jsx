@@ -25,10 +25,10 @@ const MainBar = ()  => {
     
     return(
 
-        <div className="bg-elementLight dark:bg-elementDark flex justify-between rounded-[20px] mx-auto mt-12">
+        <div className="bg-elementLight dark:bg-elementDark flex justify-between rounded-[20px] mt-12">
 
-            <img src={logoDark} alt="" className="dark:hidden block w-1/8 my-3 mx-4" />
-            <img src={logoLight} alt="" className="dark:block hidden w-1/8 mx-4"/>
+            <img src={logoDark} alt="" className="dark:hidden block w-[170px] my-3 mx-4" />
+            <img src={logoLight} alt="" className="dark:block hidden w-[170px] mx-4"/>
 
             
             <ButtonDark/>
